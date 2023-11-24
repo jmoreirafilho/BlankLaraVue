@@ -21,7 +21,11 @@ O objetivo desse projeto é disponibilizar um projeto Blank com Laravel (v. 8) e
 ```
 5. Dentro da pasta do laradock, execute o comando:`docker-compose up -d nginx mysql phpmyadmin redis workspace`
 6. Na pasta **/BlankLaraVue/** clone o arquivo `.env.exemplo`, alternado seu nome para `.env`
-7. Entre no container "workspace" gerado na sua docker e execute os comandos:
+7. Na pasta **/BlankLaraVue/** execute o comando:
+```
+> npm i
+```
+8. Entre no container "workspace" gerado na sua docker e execute os comandos:
 ```
 > composer i
 > php artisan key:generate
