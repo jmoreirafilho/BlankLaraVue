@@ -15,11 +15,14 @@ class DatabaseSeeder extends Seeder
     {
         $perfil = new \App\Models\Perfil();
         $perfil->nome = 'ADMIN';
+        $perfil->flag_perfis = 'S';
+        $perfil->flag_usuarios = 'S';
+        $perfil->flag_clientes = 'S';
         $perfil->save();
 
         $usuario = new \App\Models\Usuario();
-        $usuario->nome = 'Jose Airton';
-        $usuario->email = 'airtonmrfilho@gmail.com';
+        $usuario->nome = 'Nome do Admin';
+        $usuario->email = 'admin@email.com';
         $usuario->password = bcrypt('senha123');
         $usuario->perfil_id = $perfil->id;
         $usuario->save();
