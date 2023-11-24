@@ -1,6 +1,6 @@
-# Nome do Projeto
+# BlankLaraVue
 
-O objetivo desse projeto é disponibilizar um projeto Blank com Laravel e Vue configurados.
+O objetivo desse projeto é disponibilizar um projeto Blank com Laravel (v. 8) e VueJS (v. 2.6) configurados. Além disso está sendo utilizada a biblioteca de componentes Vuetify.
 
 ## Requisitos
 
@@ -34,4 +34,4 @@ O objetivo desse projeto é disponibilizar um projeto Blank com Laravel e Vue co
 
 Ao executar o passo 5 da instalação, sua aplicação estará funcionando em http://localhost/
 
-Para acessar o PhpMyAdmin, ele estará funcionando em http://localhost:8081
+Para acessar o PhpMyAdmin, ele estará funcionando em http://localhost:8081/
