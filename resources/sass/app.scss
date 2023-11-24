@@ -1,0 +1,25 @@
+// Fonts
+@import url("/css/google_fonts.css");
+
+
+// Variables
+@import 'variables';
+
+@font-face {
+    font-family: 'Roman';
+    src: url('/fonts/Roman-Regular.ttf')  format('truetype'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Melete';
+    src: url('/fonts/Melete-Regular.otf')  format('truetype'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/Lato-Regular.ttf')  format('truetype'); /* Legacy iOS */
+}
+
+.clickable {
+    cursor: pointer;
+}
